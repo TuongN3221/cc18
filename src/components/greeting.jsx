@@ -1,13 +1,13 @@
 // Task 1
 import React from "react";
 
-function greetings() {
+function Greeting() {
     return (
         <div>
-            <h2>Welcome to the greeting component</h2>
+            <h2>Hello from the Greeting Component!</h2>
             <p>This is your first custom component in React.</p>
         </div>
-    )
+    );
 }
-export default greetings;
-// This is a simple React component that displays a greeting message.
+export default Greeting;
+// // This is a simple functional component that returns a greeting message. It can be imported and used in other components, such as the App component.
